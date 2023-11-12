@@ -1,0 +1,144 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+
+/* COMMON CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+}
+
+ul, li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,p,span,ol{
+    margin: 0;
+    padding: 0;
+}
+body{
+     font-family: var(--1st-primary-font);
+}
+:root{
+    --1st-primary-font:'Josefin Sans', sans-serif;
+    --2nd-primary-font:'Roboto', sans-serif;
+    --Text-Color: #11161E;
+    --Paragraph-Color: #444;
+    --1st-Primary-Color: #FF6F61;
+    --2nd-primary-color: #151A32;
+    --secondary-Color: #1D1D1D;
+    --Comon-Colot:#FFF;
+}
+/* COMMON CSS END */
+
+
+/* NAVBAR START */
+
+.navbar .navbar-logo{
+    width: 37.856px;
+    height: 58px;
+    flex-shrink: 0;
+    display: flex;
+} 
+
+.navbar .navbar-logo span{
+    color: var(--Text-Color);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+   }
+
+   .navbar #navbar_cnt ul li{
+    color: var(--Text-Color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+   }
+
+/* NAVBAR ENDS */
+
+/* BANNER SECTION START */
+   #banner{
+    background-image:url(../images/banner.png);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+   }
+   #banner .banner_cnt{
+    width: 35%;
+    padding-top: 20%;
+
+   }
+   #banner .banner_cnt h6{
+    color: var(--secondary-Color);
+    font-family: var(--1st-primary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+   }
+   #banner .banner_cnt h1{
+    color:var(--secondary-Color);
+    font-family:var(--1st-primary-font);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    padding: 14px 0 16px 0;
+   }
+   #banner .banner_cnt p{
+    color:var(--secondary-Color);
+    font-family:var(--2nd-primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 29px;
+   }
+   #banner .banner_cnt button{
+    background-color: var(--1st-Primary-Color);
+    width: 196px;
+    height: 56px;
+    color: var(--Comon-Colot);
+    text-align: center;
+    font-family:var(--1st-primary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   }
+/* BANNER SECTION ENDS */
+/* PHOTO SECTION START */
+
+   #photo{
+    padding: 110px 0;
+   }
+    #photo .photo_cnt{
+       display: flex;
+}
+   #photo .photo_cnt .cnt1{
+    width: 40%;
+    display: flex;
+    margin-right: 34px;
+}
+   #photo .photo_cnt .cnt2{
+    width: 50%;
+   }
+   #photo .photo_cnt .cnt1 .img1{
+    margin-bottom: 24px;
+   }
+   #photo .photo_cnt .cnt1 .img .tex{
+    
+   }
+/* PHOTO SECTION ENDS */
